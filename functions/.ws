@@ -1,13 +1,13 @@
-# Workspace
+# Documents
 function ws() {
     if [ $# -eq 0 ]; then
-        cd ~/Workspace;
+        cd ~/Documents/LMR/projects;
     else
-       cd ~/Workspace/"$@";
+       cd ~/Documents/LMR/projects/"$@";
     fi;
 }
 _ws() {
-    _files -W ~/Workspace;
+    _files -W ~/Documents/LMR/projects;
 }
 
 compdef _ws ws

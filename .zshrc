@@ -16,9 +16,6 @@ unset file;
 echo
 echo
 echo
-cat ~/motd
-echo
-echo
-dadjoke
+cat ~/lmr
 echo
 echo
