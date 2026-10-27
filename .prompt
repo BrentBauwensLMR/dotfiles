@@ -7,6 +7,6 @@ function parse_git_branch() {
 COLOR_DEF=$'%f'
 COLOR_USR=$'%F{243}'
 COLOR_DIR=$'%F{#72DCC5}'
-COLOR_GIT=$'%F{#0047AB}'
+COLOR_GIT=$'%F{#1F51FF}'
 setopt PROMPT_SUBST
 export PROMPT='${COLOR_USR}%n ${COLOR_DIR}%~ ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF} $ '
